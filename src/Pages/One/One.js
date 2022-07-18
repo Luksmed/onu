@@ -1,6 +1,5 @@
 import React from "react"
 import { Link } from "react-router-dom"
-import styled from "styled-components"
 import Inner from "../../Components/Inner/Inner"
 import family from "../../Images/SDG-1.png"
 import * as S from "./Style"
