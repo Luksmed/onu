@@ -15,7 +15,7 @@ export default function Home(){
         <>
         <S.Box1>
           <S.Title>Os Objetivos do Desenvolvimento Sustentável na Brasilândia</S.Title>      
-          <S.SubTitle>Os Objetivos de Desenvolvimento Sustentável são um apelo global à ação para acabar com a pobreza, proteger o meio ambiente e o clima e garantir que as pessoas, em todos os lugares, possam desfrutar de paz e de prosperidade. Estes são os objetivos para os quais as Nações Unidas estão contribuindo a fim de que possamos atingir a Agenda 2030 no Brasil.</S.SubTitle>
+          <S.SubTitle>Os Objetivos de Desenvolvimento Sustentável são um apelo global à ação para acabar com a pobreza, proteger o meio ambiente e o clima e garantir que as pessoas, em todos os lugares, possam desfrutar de paz e de prosperidade. Neste site em específico, abordaremos algumas medidas que podem ser adotadas de modo que possam contribuir para o desenvolvimento sustentável da Brasilândia, que é um bairro situado na cidade de São Gonçalo, região metropolitana do Estado do Rio de Janeiro.</S.SubTitle>
         </S.Box1>
         <S.Box2>         
           <Link to ='/One'><Box imagem={errad}/></Link>

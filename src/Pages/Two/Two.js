@@ -6,7 +6,8 @@ import * as S from "./Style"
 
 export default function Two(){
 
-    return(
+    const Content = () => {
+      return(
         <S.Container>
           <S.Home><Link to ='/'>Início</Link></S.Home> 
           <S.Box1>
@@ -14,12 +15,15 @@ export default function Two(){
           </S.Box1>
           <S.Box2>
             <S.SubTitle>Objetivo 2. Acabar com a fome, alcançar a segurança alimentar e melhoria da nutrição e promover a agricultura sustentável</S.SubTitle>
-            <S.Line1><b>2.1</b> Até 2030, erradicar a pobreza extrema para todas as pessoas em todos os lugares, atualmente medida como pessoas vivendo com menos de US$ 1,90 por dia</S.Line1>
-            <S.Line1><b>2.2</b> Até 2030, erradicar a pobreza extrema para todas as pessoas em todos os lugares, atualmente medida como pessoas vivendo com menos de US$ 1,90 por dia</S.Line1>
-            <S.Line1><b>2.3</b> Até 2030, erradicar a pobreza extrema para todas as pessoas em todos os lugares, atualmente medida como pessoas vivendo com menos de US$ 1,90 por dia</S.Line1>
-            <S.Line1><b>2.4</b> Até 2030, erradicar a pobreza extrema para todas as pessoas em todos os lugares, atualmente medida como pessoas vivendo com menos de US$ 1,90 por dia</S.Line1>
-            <S.Line1><b>2.5</b> Até 2030, erradicar a pobreza extrema para todas as pessoas em todos os lugares, atualmente medida como pessoas vivendo com menos de US$ 1,90 por dia</S.Line1>
-        </S.Box2>
+            <S.Line1><b>2.1</b> Até 2024, organizar distribuições mensais de alimentos aos mais necessitados, especialmente aos moradores de rua e pessoas em situações de vulnerabilidade.</S.Line1>
+            <S.Line1><b>2.2</b> Até 2024, mapear locais propícios ao cultivo de hortas comunitárias, e iniciar o plantio de maneira a garantir a nutrição de todos, mas especialmente dos mais necessitados.</S.Line1>
+            <S.Line1><b>2.3</b> Aos indivíduos em situação de extrema pobreza, devidamente constatada, garantir o acesso à um crédito que possibilite uma alimentação minimamente digna, com a prefeitura municipal ressarcindo os mercados e estabelecimentos envolvidos.</S.Line1>
+          </S.Box2>
         </S.Container>
+      )
+    }
+
+    return(
+      Content()
     )
 }
